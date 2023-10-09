@@ -1,0 +1,29 @@
+*{
+    font-family: 'Sedgwick Ave Display', cursive;
+}
+.carousel-item{
+    height: 80vh;
+    min-height: 300px;
+    min-width: 100px;
+}
+.carousel-caption{
+    bottom: 220px;
+}
+.carousel-caption h5{
+    font-size: 35px;
+    text-shadow: 2px 2px 4px #000000;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 25px;
+}
+.carousel-caption p{
+    width: 60%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.9;
+    text-shadow: 2px 2px 4px #000000;
+}
+.container-para{
+    font-size: 20px;
+    margin-left: 100px;
+}

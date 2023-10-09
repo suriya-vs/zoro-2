@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZORO</title>
+    <!-- custom link -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="zorologo.png">
+    <!-- cdn link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!--icon-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Sedgwick+Ave+Display&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- nav bar -->
+    <header>
+        <nav class="navbar fixed-top navbar-expand-lg  navbar-dark" style="background-color: black;">
+            <div class="container">
+                <a href="/" class="navbar-brand"><img src="zorologo.png" alt="ZORO" width="45" height="35" loading="lazy" class="d-inline-block align-content-center">Zoro</a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#myNavBar" aria-controls="myNavBar" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="myNavBar">
+                    <ul class="navbar-nav  ms-auto mb-2 mb-lg-0">
+                     <li class="nav-item">
+                        <a href="#home" class="nav-link active" aria-current="page">HOME</a>
+                     </li>
+                        <li class="nav-item">
+                            <a href="#about" class="nav-link">ABOUT</a>
+                        </li>
+                         <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#services" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">SERVICES</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <li><a class="dropdown-item" href="#services">Watch together</a></li>
+                              <li><a class="dropdown-item" href="#services">Trending</a></li>
+                              <li><a class="dropdown-item" href="#services">Manga</a></li>
+                              <li><a class="dropdown-item" href="#services">Movies</a></li>
+                            </ul>
+                          </li>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#reviews" class="nav-link">REVIEWS</a>
+                        </li>
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="search"  aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                    </ul>
+                </div>
+            </div>
+            </nav>
+    </header>
+        <!--Carousel slide-->
+        <div id="myCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+              </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="Onepiece.jpg" class="d-block w-100" alt="img1">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>OnePiece</h5>
+                        <p>Sail around the world with pirates in search of OnePiece</p>
+                      </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="Naruto.png" class="d-block w-100" alt="img2">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Naruto</h5>
+                        <p>Watch Ninjas in action and learn new jutsu's</p>
+                      </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="Jujutsu kaisen.png" class="d-block w-100" alt="img3">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Jujutsu kaisen</h5>
+                        <p>Surviving the curses with the Sorcerers</p>
+                      </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="Bleach.jpg" class="d-block w-100" alt="img4">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Bleach</h5>
+                        <p>See how a soul world crosses with the living</p>
+                      </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="Berserk.jpg" class="d-block w-100" alt="img5">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Berserk</h5>
+                        <p>Life of a man who lost his Love and turned into a BERSERK</p>
+                      </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+            </div>
+        </div>
+        <!-- About page-->
+        <div class="about-area section-padding" id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-sm-12">
+                        <div class="img-area p-lg-5 p-xs-2">
+                            <img src="shadow.png" alt="about" class="d-block w-100">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-sm-12">
+                     <div class="about-text p-5">
+                        <h2 class="text-success">Best in class Anime site</h2>
+                        <p>We have wide range of anime categories and we provide them free of cost </p>
+                        <p>So take a bucket full of snack and enjoy the show</p>
+                     </div>   
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- services -->
+        <div class="services-area section-padding " id="services">
+            <div class="container">
+                <h3 class="display-2 text-center text-success">Services</h3>
+                <div class="row p-5">
+                    <div class="col-lg-3 col-sm-12">     
+                   <h3 style="color:greenyellow;">Watch Together</h3>
+                   <p>By using this serivice you and your nibbas can watch the shows together</p>
+                    </div>
+                    <div class="col-lg-3 col-sm-12">
+                        <h3 style="color:greenyellow">Trending</h3>
+                        <p>Here you can see trending contents that are mostviewed</p>
+                  </div>
+                    <div class="col-lg-3 col-sm-12">
+                        <h3 style="color:greenyellow;">Manga</h3>
+                        <p>You can read widerange of mangas without downloading </p>
+                    </div>
+                    <div class="col-lg-3 col-sm-12">
+                        <h3 style="color: greenyellow;">Movies</h3>
+                        <p>We have added collection of Anime Movies, you can watch which suits your taste</p>
+                    </div>
+                </div>
+                </div>
+        </div>    
+        <!--Gallary-->
+        <div class="gallery-area section-padding" id="gallery">
+            <div class="container">
+                <h2 class="display-2 text-center text-success">Trending</h2>
+                    <div class="row p-5 text-center">
+                    <div class="col-lg-3 col-sm-2">
+                     <img src="https://staticg.sportskeeda.com/editor/2021/10/2ed18-16356882419117-1920.jpg" alt="img1" class="d-block w-100 h-75">
+                     <h4>#1</h4>
+                    <p>The Straw Hat Pirates enter the rough seas of the New World in search of the hidden treasures of the Pirate King, Gol D. Roger</p>
+                    </div> 
+                    <div class="col-lg-3 col-sm-12">
+                        <img src="https://m.media-amazon.com/images/M/MV5BMTMwMDM4N2EtOTJiYy00OTQ0LThlZDYtYWUwOWFlY2IxZGVjXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_.jpg" alt="img2" class="d-block w-100 h-75">  
+                        <h4>#2</h4>
+                        <p>Violent misfortunes frequently occur around 16-year-old Yuuta Okkotsu, a timid victim of high school bullying</p>
+                     </div> 
+                    <div class="col-lg-3 col-sm-12">
+                        <img src="https://m.media-amazon.com/images/M/MV5BODFmYTUwYzMtM2M2My00NGExLWIzMDctYmRjNTNhZDc4MGI2XkEyXkFqcGdeQXVyMTMzNDExODE5._V1_.jpg" alt="img3" class="d-block w-100 h-75">
+                        <h4>#3</h4>
+                        <p>Substitute Soul Reaper Ichigo Kurosaki spends his days fighting against Hollows,</p>
+                    </div> 
+                    <div class="col-lg-3 col-sm-12">
+                        <img src="https://static.bunnycdn.ru/i/cache/images/2018/04/0dba43645036628fbe141f0dc7a8726a.jpg" alt="img4" class="d-block w-100 h-75">
+                        <h4>#4</h4>
+                        <p>Guts now branded for death and destined to be hunted by demons until the day he dies</p>
+                    </div>         
+                </div>    
+            </div>
+        </div> 
+             <!--reviews-->
+                <div class="reviews-area section-padding p-5 mt-0" id="reviews">
+                    <div class="container">
+                        <h3 class="display-3 text-center text-success p-5 mt-180">Reviews</h3>  
+                    </div>  
+                    <div class="row text-center">
+                        <div class="col-md-4 mb-md-0">
+                            <div class="d-flex justify-content-center mb-4">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJwL1r-iJzwdMJ9x_F_tR0EX7mAw7gMUzr9w&usqp=CAU" alt="img" class="rounded-circle shadow-1-strong" width="150" height="150">
+                            </div>
+                            <div class="container">
+                                <h5 class="Maria"></h5>
+                                <p class="px-xl-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias velit illum corporis voluptatibus voluptatum sed maxime eos vero quisquam modi!</p>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-md-0">
+                            <div class="d-flex justify-content-center mb-4">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTk_F_hr_rc7D4Ff9THD81W7azUnAeG4_q9RA&usqp=CAU" alt="img" class="rounded-circle shadow-1-strong" width="150" height="150">
+                            </div>
+                            <div class="container">
+                                <h5 class="Maria"></h5>
+                                <p class="px-xl-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias velit illum corporis voluptatibus voluptatum sed maxime eos vero quisquam modi!</p>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-regular fa-star-half-stroke text-warning"></i>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-md-0">
+                            <div class="d-flex justify-content-center mb-4">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjHic9oZBQn8ntgVJZmgyZK7sxN5lGfYXYOQ&usqp=CAU" alt="img" class="rounded-circle shadow-1-strong" width="150" height="150">
+                            </div>
+                            <div class="container">
+                                <h5 class="Maria"></h5>
+                                <p class="px-xl-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias velit illum corporis voluptatibus voluptatum sed maxime eos vero quisquam modi!</p>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-regular fa-star-half-stroke text-warning"></i>
+                            </div>
+                        </div>  
+                    </div>  
+                </div>
+                <!--Blog-->
+                        </div>
+                    </div>
+                </div>       
+                <!--contact-->
+                <div class="contact-area section-padding" id="contact">
+                    <div class="container-para">
+                        <p class="contactpara">Register to enjoy fullness of this site</p>
+
+                        <div class="mb-3">
+                            <label for="form1" class="form-label">Your Name (required)</label>
+                            <input type="text" class="form-control" id="form1" placeholder="Enter your Name">
+                          </div>
+                          <div class="mb-3">
+                            <label for="form2" class="form-label">Your Email (required)</label>
+                            <input type="text" class="form-control" id="form2" placeholder="Enter your Email">
+                          </div>
+                          <div class="mb-3">
+                            <label for="form3" class="form-label">Phone No</label>
+                            <input type="text" class="form-control" id="form3" placeholder="Enter your Phone">
+                          </div>
+                          <div class="mb-3">
+                            <label for="form5" class="form-label">Location/City where event will take place (required)</label>
+                            <input type="text" class="form-control" id="form5">
+                          </div>
+                            <div class="mb-3 p-2">
+                            <button class="btn btn-warning" type="button">Register</button>
+                        </div>
+                    </div>
+                </div>  
+                <br>
+                <!--footer-->
+                <footer class="bg-dark text-white pt-5 pb-4">
+                    <div class="container text-center text-md-left">
+                        <div class="row align-items-center">
+                            <div class="col-md-7 col-lg-8">
+                                <p>Copyright &copy;2023 All rights reserved by:
+                                    <a href="#" style="text-decoration: none;">
+                                    <strong class="text-warning">The Providers</strong></a>
+                                </p>
+                            </div>
+                            <div class="col-md-5 col-lg-4">
+                                <div class="text-center text-md-right">
+                                    <ul class="list-unstyled list-inline">
+                                        <li class="list-inline-item">
+                                            <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="fab fa-facebook"></i></a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="fab fa-twitter"></i></a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="fab fa-google-plus"></i></a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="fab fa-linkedin"></i></a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="fab fa-youtube"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>                               
+                            </div>
+                        </div>
+                    </div>
+
+                </footer>     
+        <!--Js cdn-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
